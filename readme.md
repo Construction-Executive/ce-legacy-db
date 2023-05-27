@@ -1,6 +1,6 @@
 ## Run the Construction Executive DB Locally
 
-The database copy we received is a [.bak file of a MSSQL 2022 database](https://thor-studio.box.com/s/9w1bj7a5avhs7ekrmnqmbxgfguknudyd). To examine the DB, the best move is to download it and run it locally using Docker and Azure Data Studio. You can download [Docker](https://www.docker.com/) and [Azure Data Studio](https://azure.microsoft.com/en-us/products/data-studio) - ADS is basically a VS Code instance customized for databases so you can skip it if you have a preferred tool for SQL.
+The database copy we received is a [.bak file of a MSSQL 2022 database](https://thor-studio.box.com/s/ur78r9mtwbf1o41qlc4fe16hrrdhtz1r). To examine the DB, the best move is to download it and run it locally using Docker and Azure Data Studio. You can download [Docker](https://www.docker.com/) and [Azure Data Studio](https://azure.microsoft.com/en-us/products/data-studio) - ADS is basically a VS Code instance customized for databases so you can skip it if you have a preferred tool for SQL.
 
 Below is a step-by-step guide to get the database up and running.
 
@@ -61,20 +61,3 @@ WITH
 ```
 
 You should get a dialogue about the migration working. Now you can connect to the DB and look around the tables.
-
-
-
-
-
-
-
-
-
-SmartSite	C:\Program Files\Microsoft SQL Server\MSSQL13.SQLEXPRESS\MSSQL\DATA\ss_constructionexec_com.mdf	D	PRIMARY	923992064	35184372080640	1	0	0	a2a7809b-33ca-49c8-a891-d71ec2b6b741	0	0	919601152	4096	1	NULL	11040000000012800055	28024c25-2b04-4699-914d-cd49ca8620ba	0	1	NULL	NULL
-
-ftrow_index	C:\Program Files\Microsoft SQL Server\MSSQL13.SQLEXPRESS\MSSQL\DATA\ftrow_index{26As0daD4dB1-4648-4669-9AF6-B737826855E7}.ndf	D	ftfg_index	1048576	35184372080640	3	2538000000049300001	0	42f3f0f7-eb8b-4996-952a-e58fdcaa9e53	0	0	65536	4096	2	NULL	11040000000012800055	28024c25-2b04-4699-914d-cd49ca8620ba	0	1	NULL	NULL
-
-SmartSite_log	C:\Program Files\Microsoft SQL Server\MSSQL13.SQLEXPRESS\MSSQL\DATA\ss_constructionexec_com_1.LDF	L	NULL	153288704	2199023255552	2	0	0	1a741b35-3537-445a-8f1b-17b7839041ef	0	0	0	4096	0	NULL	0	00000000-0000-0000-0000-000000000000	0	1	NULL	NULL
-
-
-C:\Program Files\Microsoft SQL Server\MSSQL13.SQLEXPRESS\MSSQL\DATA\ss_constructionexec_com.mdf
